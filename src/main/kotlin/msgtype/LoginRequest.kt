@@ -10,8 +10,8 @@ data class LoginRequest @JsonCreator constructor(
     @JsonProperty("password")
     val password: String,
     @JsonProperty("twoFactorAuth")
-    val twoFactorAuth:String="",
+    val twoFactorAuth: String = "",
     @JsonProperty("expireTime")
-    val expireTime: Date?=null
+    val expireTime: Date? = null
 )
 
