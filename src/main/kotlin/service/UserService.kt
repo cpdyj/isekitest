@@ -12,7 +12,3 @@ class UserService:AbstractVerticle() {
 }
 
 
-
-fun login(loginRequest: LoginRequest):String{
-    TODO()
-}
